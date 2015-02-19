@@ -1,0 +1,7 @@
+package fluxedforces.tile;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileEntityRobot extends TileEntity {
+
+}
