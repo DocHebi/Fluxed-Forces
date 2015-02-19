@@ -1,4 +1,4 @@
-package fluxedforces.ai;
+package fluxedforces.AI;
 
 public class RobotAI {
 
