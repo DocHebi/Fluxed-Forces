@@ -1,0 +1,9 @@
+package fluxedforces.tabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class ModTabs 
+{
+	public static CreativeTabs tabFluxedForces = new FluxedForcesTab(CreativeTabs.getNextID(), "tabFluxedForces");
+
+}
