@@ -1,0 +1,33 @@
+package fluxedforces.crafting;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.registry.GameRegistry;
+import fluxedforces.init.ModItems;
+
+public class Recipes
+{
+
+	public static void init()
+	{
+
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.assembleTable), new Object[] 
+				{"AAA", "ABA", "A A", 'A', Blocks.planks, 'B', ModItems.woodenCog});
+		GameRegistry.addShapedRecipe(new ItemStack(ModItems.woodenCog), new Object[] 
+				{" A ", "ABA", " A ", 'A', Items.stick, 'B', Blocks.stone});
+		
+		
+
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.rok), new Object[] 
+				{new ItemStack(ModItems.rokBroken), ModItems.qcore});
+
+
+		GameRegistry.addSmelting(Items.coal, new ItemStack(ModItems.crystal), 0.0F);
+		
+	
+
+		
+	}
+	
+}
